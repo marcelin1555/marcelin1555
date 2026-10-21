@@ -16,15 +16,15 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 ### Sobre mim
 
 - Escrevo sistemas que estão **em uso de verdade**: o SIGBEF gerencia a biblioteca do CEFE e roda offline em máquinas simples.
-- Gosto de entender o problema antes de escolher a tecnologia. Uso Python, TypeScript, Java, Kotlin e Lua, dependendo do que o problema pede.
+- Gosto de entender o problema antes de escolher a tecnologia. Uso Python, TypeScript, C#, Java, Kotlin e Lua, dependendo do que o problema pede.
 - Documento o que faço: README, requisitos, plano de cada fase e testes automatizados.
 - Fora do trabalho sério, faço mods de Minecraft, um sistema operacional que roda no navegador e computadores programáveis dentro do jogo.
 
 ### Tecnologias
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,ts,js,java,kotlin,lua,cpp&theme=dark" alt="Linguagens" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,svelte,nodejs,express,fastapi,electron,vite&theme=dark" alt="Frameworks" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,cs,java,kotlin,lua,cpp&theme=dark" alt="Linguagens" /><br/>
+  <img src="https://skillicons.dev/icons?i=react,svelte,nodejs,express,fastapi,dotnet,electron,vite&theme=dark" alt="Frameworks" /><br/>
   <img src="https://skillicons.dev/icons?i=postgres,sqlite,firebase,docker,vercel,git,blender&theme=dark" alt="Ferramentas" />
 </p>
 
@@ -47,6 +47,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 |---|---|---|
 | **Dita** | Caderneta de balcão por voz. O atendente fala o nome do cliente e o pedido, e o lançamento entra na conta dele. Atende vários comerciantes com contas isoladas e funciona sem internet. | React · Capacitor · Express · PostgreSQL (Neon) · Fly.io |
 | [**NF-e Validator**](https://nfe-validator-beta.vercel.app) | Valida NF-e, NFC-e e NFS-e antes do envio, já com as regras da Reforma Tributária. | TypeScript · PostgreSQL · Docker |
+| **Liber Seridó Launcher** | Launcher white-label de modpack para Minecraft, e o Neptune Launcher é a primeira instância. Tem login Microsoft (OAuth 2.0 + Xbox Live), atualização do modpack por hashes SHA-256, atualização automática do próprio launcher e presença no Discord. | C# · .NET 8 · WPF |
 | **Órbita – KSP Launcher** | Launcher desktop para Kerbal Space Program: instâncias, clonagem, backups verificados por SHA-256, catálogo CKAN e modpacks exportáveis. | Electron · Node.js |
 | **Bot de relatórios** | Bot de Discord para formulários institucionais com protocolo, prévia, histórico de revisões e controle de alunos. | TypeScript · discord.js · Zod · Vitest · Docker |
 
