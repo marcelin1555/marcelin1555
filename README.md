@@ -6,8 +6,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=600&size=22&duration=3500&pause=900&color=2E75B6&center=true&vCenter=true&width=620&lines=Software+para+problemas+reais;Sistemas+para+escolas+p%C3%BAblicas;Web%2C+desktop%2C+mobile+e+mods" alt="Software para problemas reais" />
 </a>
 
-Desenvolvedor full-stack do interior do Rio Grande do Norte.<br/>
+Desenvolvedor full-stack do interior do Rio Grande do Norte e fundador da [**Morrow Studio**](https://morrowstudio.com.br).<br/>
 Faço software para resolver problemas de quem está perto: a biblioteca da escola, a cozinha que não sabe quantos vão almoçar, o comerciante que anota fiado no caderno.
+
+[![Morrow Studio](https://img.shields.io/badge/morrowstudio.com.br-Sistemas%20%C2%B7%20Apps%20%C2%B7%20Jogos%20%C2%B7%203D-E8A33D?style=for-the-badge)](https://morrowstudio.com.br)
 
 </div>
 
@@ -18,6 +20,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 - Escrevo sistemas que estão **em uso de verdade**: o SIGBEF gerencia a biblioteca do CEFE e roda offline em máquinas simples.
 - Gosto de entender o problema antes de escolher a tecnologia. Uso Python, TypeScript, C#, Java, Kotlin e Lua, dependendo do que o problema pede.
 - Documento o que faço: README, requisitos, plano de cada fase e testes automatizados.
+- Pela Morrow Studio, faço sistemas, apps, jogos e 3D para escolas, comércios e empresas do Seridó. O portfólio completo está em [morrowstudio.com.br](https://morrowstudio.com.br).
 - Fora do trabalho sério, faço mods de Minecraft, um sistema operacional que roda no navegador e computadores programáveis dentro do jogo.
 
 ### Tecnologias
@@ -37,7 +40,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 | Projeto | O que é | Stack |
 |---|---|---|
 | [**SIGBEF**](https://github.com/marcelin1555/SIGBEF) · [site](https://sigbef.vercel.app) | Sistema da biblioteca do CEFE: acervo, empréstimos, terminal de autoatendimento e app do aluno. Gratuito, offline e sem dependências fora da biblioteca padrão. Versão 1.14, em produção. | Python · Tkinter · SQLite · Android |
-| **SIARRN** | Prevê quantos alunos vão almoçar somando quem confirmou à probabilidade histórica de quem não respondeu. Funciona com qualquer nível de adesão e nunca nega comida a ninguém. | Python · Tkinter · Kotlin · Compose |
+| **SIARRN** | Sistema de almoço da escola: um totem na fila conta quem de fato almoçou, e a cozinha para de preparar no chute. | Python · Tkinter · SQLite · Kotlin · Compose |
 | **CEFE OS** | Plataforma da intranet da escola para administrar servidores reaproveitados, hospedar projetos dos alunos e publicar a biblioteca digital de TCCs. | FastAPI · SQLAlchemy · PostgreSQL · Gitea |
 | [**Trânsito Gkol**](https://transito-gkol.vercel.app) | Jogo educativo sobre escolhas no trânsito: 8 fases, 14 finais e referências ao Código de Trânsito. | JavaScript · PWA |
 
@@ -48,8 +51,16 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 | **Dita** | Caderneta de balcão por voz. O atendente fala o nome do cliente e o pedido, e o lançamento entra na conta dele. Atende vários comerciantes com contas isoladas e funciona sem internet. | React · Capacitor · Express · PostgreSQL (Neon) · Fly.io |
 | [**NF-e Validator**](https://nfe-validator-beta.vercel.app) | Valida NF-e, NFC-e e NFS-e antes do envio, já com as regras da Reforma Tributária. | TypeScript · PostgreSQL · Docker |
 | **Liber Seridó Launcher** | Launcher white-label de modpack para Minecraft, e o Neptune Launcher é a primeira instância. Tem login Microsoft (OAuth 2.0 + Xbox Live), atualização do modpack por hashes SHA-256, atualização automática do próprio launcher e presença no Discord. | C# · .NET 8 · WPF |
-| **Órbita – KSP Launcher** | Launcher desktop para Kerbal Space Program: instâncias, clonagem, backups verificados por SHA-256, catálogo CKAN e modpacks exportáveis. | Electron · Node.js |
+| [**Órbita – KSP Launcher**](https://orbita-ksp.vercel.app) | Launcher desktop para Kerbal Space Program: instâncias, clonagem, backups verificados por SHA-256, catálogo CKAN e modpacks exportáveis. | Electron · Node.js |
 | **Bot de relatórios** | Bot de Discord para formulários institucionais com protocolo, prévia, histórico de revisões e controle de alunos. | TypeScript · discord.js · Zod · Vitest · Docker |
+| **Painel de iluminação** | Mesa de luz com tela sensível ao toque que troca a iluminação de um salão por rádio e comanda quatro refletores por cabo DMX. | C++ · DMX512 · PlatformIO |
+
+### Jogos
+
+| Projeto | O que é | Stack |
+|---|---|---|
+| **Tin Night** | Jogo co-op de terror e sobrevivência para Roblox, de 1 a 4 jogadores: vigie as câmeras, divida a energia e chegue às 6h. | Roblox · Luau · Rojo · Wally |
+| **Tycoon** | Base de um tycoon para Roblox com terreno por jogador, droppers, upgraders, rebirth e progresso salvo no servidor. | Roblox · Luau · Rojo |
 
 ### Ecossistema Quiral
 
@@ -58,6 +69,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 | [**QuiralOS**](https://quiralos.vercel.app) | Um sistema operacional no navegador, com Dock, janelas, apps, contas na nuvem e um mundo compartilhado entre os jogadores. Tem também [versão mobile](https://quiralos-mobile.vercel.app). | Svelte · Firebase · TensorFlow.js |
 | **Quibraer** | Mod de aviões para Minecraft. O primeiro é o Carcará U-12, utilitário de 12 lugares. | Java 21 · NeoForge 1.21.1 |
 | **AgroDrones** | Mod com drones agrícolas, civis e de segurança, que usam baterias com química e ciclos de carga. | Java · NeoForge |
+| **Quirawei** | Modelos 3D, telas e vídeos de propaganda da marca Quirawei. | Blender · Python |
 
 ### Computadores no Minecraft (CC:Tweaked)
 
@@ -66,6 +78,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 | [**FALAE**](https://github.com/marcelin1555/falae) | Operadora de telefonia dentro do jogo: central, aparelho e instalador. Tem também um [painel web](https://falae-painel.vercel.app). |
 | [**HELIOS**](https://github.com/marcelin1555/helios-cc) | Painel de rede elétrica e rastreador solar. |
 | [**Extreme Reactors Control**](https://github.com/marcelin1555/extreme-reactors-control) | Controle de alta eficiência para reatores do Extreme Reactors. |
+| [**Piloto de foguete**](https://github.com/marcelin1555/foguete-cc-teste) | Piloto automático que sobe até a órbita, circulariza, faz o deorbit e pousa, sempre com logs. |
 
 <details>
 <summary><b>Outros projetos</b></summary>
@@ -93,6 +106,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 
 **Vamos conversar?**
 
+[![Morrow Studio](https://img.shields.io/badge/Morrow%20Studio-E8A33D?style=for-the-badge&logo=googlechrome&logoColor=white)](https://morrowstudio.com.br)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcello-melo-costa/)
 [![E-mail](https://img.shields.io/badge/E--mail-2E75B6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marcellommcosta@gmail.com)
 
