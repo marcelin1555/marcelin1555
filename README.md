@@ -18,7 +18,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 ### Sobre mim
 
 - Escrevo sistemas que estão **em uso de verdade**: o SIGBEF gerencia a biblioteca do CEFE e roda offline em máquinas simples.
-- Gosto de entender o problema antes de escolher a tecnologia. Uso Python, TypeScript, C#, Java, Kotlin e Lua, dependendo do que o problema pede.
+- Gosto de entender o problema antes de escolher a tecnologia. Uso Python, Go, TypeScript, C#, Java, Kotlin e Lua, dependendo do que o problema pede.
 - Documento o que faço: README, requisitos, plano de cada fase e testes automatizados.
 - Pela Morrow Studio, faço sistemas, apps, jogos e 3D para escolas, comércios e empresas do Seridó. O portfólio completo está em [morrowstudio.com.br](https://morrowstudio.com.br).
 - Fora do trabalho sério, faço mods de Minecraft, um sistema operacional que roda no navegador e computadores programáveis dentro do jogo.
@@ -26,7 +26,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 ### Tecnologias
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,ts,js,cs,java,kotlin,lua,cpp&theme=dark" alt="Linguagens" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,go,ts,js,cs,java,kotlin,lua,cpp&theme=dark" alt="Linguagens" /><br/>
   <img src="https://skillicons.dev/icons?i=react,svelte,nodejs,express,fastapi,dotnet,electron,vite&theme=dark" alt="Frameworks" /><br/>
   <img src="https://skillicons.dev/icons?i=postgres,sqlite,firebase,docker,vercel,git,blender&theme=dark" alt="Ferramentas" />
 </p>
@@ -48,6 +48,8 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 
 | Projeto | O que é | Stack |
 |---|---|---|
+| [**rbx-economy**](https://github.com/marcelin1555/rbx-economy) | API de ranking e economia para jogos do Roblox. O servidor do jogo manda o progresso e qualquer pessoa lê o ranking global, coisa que o DataStore sozinho não dá. Tem chave de API, limite por IP, testes e módulo Luau pronto para usar. | Go · SQLite · Luau |
+| [**vagas-radar**](https://github.com/marcelin1555/vagas-radar) | Programa de linha de comando que vigia sites de vagas remotas ao mesmo tempo, filtra pelo que me interessa e avisa no Discord só das vagas novas. | Go · SQLite · goroutines |
 | **Dita** | Caderneta de balcão por voz. O atendente fala o nome do cliente e o pedido, e o lançamento entra na conta dele. Atende vários comerciantes com contas isoladas e funciona sem internet. | React · Capacitor · Express · PostgreSQL (Neon) · Fly.io |
 | [**NF-e Validator**](https://nfe-validator-beta.vercel.app) | Valida NF-e, NFC-e e NFS-e antes do envio, já com as regras da Reforma Tributária. | TypeScript · PostgreSQL · Docker |
 | **Morrow Launcher** | Launcher white-label de modpack para Minecraft, e o Neptune Launcher é a primeira instância. Tem login Microsoft (OAuth 2.0 + Xbox Live), atualização do modpack por hashes SHA-256, atualização automática do próprio launcher e presença no Discord. | C# · .NET 8 · WPF |
