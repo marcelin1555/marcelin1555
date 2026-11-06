@@ -50,7 +50,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 |---|---|---|
 | **Dita** | Caderneta de balcão por voz. O atendente fala o nome do cliente e o pedido, e o lançamento entra na conta dele. Atende vários comerciantes com contas isoladas e funciona sem internet. | React · Capacitor · Express · PostgreSQL (Neon) · Fly.io |
 | [**NF-e Validator**](https://nfe-validator-beta.vercel.app) | Valida NF-e, NFC-e e NFS-e antes do envio, já com as regras da Reforma Tributária. | TypeScript · PostgreSQL · Docker |
-| **Liber Seridó Launcher** | Launcher white-label de modpack para Minecraft, e o Neptune Launcher é a primeira instância. Tem login Microsoft (OAuth 2.0 + Xbox Live), atualização do modpack por hashes SHA-256, atualização automática do próprio launcher e presença no Discord. | C# · .NET 8 · WPF |
+| **Morrow Launcher** | Launcher white-label de modpack para Minecraft, e o Neptune Launcher é a primeira instância. Tem login Microsoft (OAuth 2.0 + Xbox Live), atualização do modpack por hashes SHA-256, atualização automática do próprio launcher e presença no Discord. | C# · .NET 8 · WPF |
 | [**Órbita – KSP Launcher**](https://orbita-ksp.vercel.app) | Launcher desktop para Kerbal Space Program: instâncias, clonagem, backups verificados por SHA-256, catálogo CKAN e modpacks exportáveis. | Electron · Node.js |
 | **Bot de relatórios** | Bot de Discord para formulários institucionais com protocolo, prévia, histórico de revisões e controle de alunos. | TypeScript · discord.js · Zod · Vitest · Docker |
 | **Painel de iluminação** | Mesa de luz com tela sensível ao toque que troca a iluminação de um salão por rádio e comanda quatro refletores por cabo DMX. | C++ · DMX512 · PlatformIO |
