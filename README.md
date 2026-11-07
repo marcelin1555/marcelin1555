@@ -109,6 +109,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 **Vamos conversar?**
 
 [![Morrow Studio](https://img.shields.io/badge/Morrow%20Studio-E8A33D?style=for-the-badge&logo=googlechrome&logoColor=white)](https://morrowstudio.com.br)
+[![Instagram](https://img.shields.io/badge/Instagram-%40morrow__studio__br-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/morrow_studio_br/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcello-melo-costa/)
 [![E-mail](https://img.shields.io/badge/E--mail-2E75B6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marcellommcosta@gmail.com)
 
