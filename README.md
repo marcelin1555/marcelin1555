@@ -40,7 +40,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 | Projeto | O que é | Stack |
 |---|---|---|
 | [**SIGBEF**](https://github.com/marcelin1555/SIGBEF) · [site](https://sigbef.vercel.app) | Sistema da biblioteca do CEFE: acervo, empréstimos, terminal de autoatendimento e app do aluno. Gratuito, offline e sem dependências fora da biblioteca padrão. Versão 1.14, em produção. | Python · Tkinter · SQLite · Android |
-| **SIARRN** | Sistema de almoço da escola: um totem na fila conta quem de fato almoçou, e a cozinha para de preparar no chute. | Python · Tkinter · SQLite · Kotlin · Compose |
+| [**SIARRN**](https://github.com/marcelin1555/SIARRN) | Sistema de almoço da escola: um totem na fila conta quem de fato almoçou, e a cozinha para de preparar no chute. | Python · Tkinter · SQLite · Kotlin · Compose |
 | **CEFE OS** | Plataforma da intranet da escola para administrar servidores reaproveitados, hospedar projetos dos alunos e publicar a biblioteca digital de TCCs. | FastAPI · SQLAlchemy · PostgreSQL · Gitea |
 | [**Trânsito Gkol**](https://transito-gkol.vercel.app) | Jogo educativo sobre escolhas no trânsito: 8 fases, 14 finais e referências ao Código de Trânsito. | JavaScript · PWA |
 
@@ -48,6 +48,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 
 | Projeto | O que é | Stack |
 |---|---|---|
+| [**Lunar Landing Site Navigator**](https://github.com/marcelin1555/lunar-landing-site-navigator) | Feito com a equipe Quiral Labs no NASA Space Apps Challenge 2026: mostra quando o Sol e a Terra ficam visíveis de possíveis locais de pouso no polo sul da Lua, considerando o relevo real do horizonte. | Svelte · dados de terreno |
 | [**rbx-economy**](https://github.com/marcelin1555/rbx-economy) | API de ranking e economia para jogos do Roblox. O servidor do jogo manda o progresso e qualquer pessoa lê o ranking global, coisa que o DataStore sozinho não dá. Tem chave de API, limite por IP, testes e módulo Luau pronto para usar. | Go · SQLite · Luau |
 | [**vagas-radar**](https://github.com/marcelin1555/vagas-radar) | Programa de linha de comando que vigia sites de vagas remotas ao mesmo tempo, filtra pelo que me interessa e avisa no Discord só das vagas novas. | Go · SQLite · goroutines |
 | **Dita** | Caderneta de balcão por voz. O atendente fala o nome do cliente e o pedido, e o lançamento entra na conta dele. Atende vários comerciantes com contas isoladas e funciona sem internet. | React · Capacitor · Express · PostgreSQL (Neon) · Fly.io |
@@ -87,6 +88,7 @@ Faço software para resolver problemas de quem está perto: a biblioteca da esco
 <br/>
 
 - [**Eligius Mainframe**](https://eligius-mainframe.vercel.app): terminal fictício de bordo da nave Eligius-IV.
+- [**EduTotem**](https://github.com/marcelin1555/EduTotem): totem digital interativo para o ambiente escolar do CEFE.
 - [**GameOn Shop**](https://gameon-shop.vercel.app): loja digital de jogos, feita para a disciplina de Web 2.
 - **HomeLab**: gabinete de servidor caseiro modelado em Blender e exportado para impressão 3D.
 - [**Neptune Modpack**](https://github.com/marcelin1555/neptune-modpack): modpack do Neptune SMP distribuído pelas Releases.
